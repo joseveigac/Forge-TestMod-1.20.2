@@ -2,5 +2,13 @@
   "item.testmod.sapphire": "Sapphire",
   "item.testmod.raw_sapphire": "Raw Sapphire",
 
+  "block.testmod.sapphire_block": "Block of Sapphire",
+  "block.testmod.raw_sapphire_block": "Block of Raw Sapphire",
+
+  "block.testmod.sapphire_ore": "Sapphire Ore",
+  "block.testmod.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
+  "block.testmod.nether_sapphire_ore": "Nether Sapphire Ore",
+  "block.testmod.end_stone_sapphire_ore": "Endstone Sapphire Ore",
+
   "creativetab.test_tab": "Sapphire Test Tab"
 }

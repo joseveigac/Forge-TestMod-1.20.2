@@ -1,6 +1,7 @@
 package net.joseveiga.testmod;
 
 import com.mojang.logging.LogUtils;
+import net.joseveiga.testmod.block.ModBlocks;
 import net.joseveiga.testmod.item.ModCreativeModTabs;
 import net.joseveiga.testmod.item.ModItems;
 import net.minecraft.client.Minecraft;
@@ -34,8 +35,9 @@ public class TestMod
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        ModCreativeModTabs.register(modEventBus);
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
+        ModCreativeModTabs.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);

@@ -1,6 +1,7 @@
 package net.joseveiga.testmod.item;
 
 import net.joseveiga.testmod.TestMod;
+import net.joseveiga.testmod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -18,8 +19,18 @@ public class ModCreativeModTabs {
                     .icon(() -> new ItemStack(ModItems.SAPPHIRE.get()))
                     .title(Component.translatable("creativetab.test_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
+                        // Items
                         output.accept(ModItems.SAPPHIRE.get()); // Only use .get() for custom items not vanilla
                         output.accept(ModItems.RAW_SAPPHIRE.get());
+                        // Blocks
+                        output.accept(ModBlocks.SAPPHIRE_BLOCK.get());
+                        output.accept(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
+                        // Ores
+                        output.accept(ModBlocks.SAPPHIRE_ORE.get());
+                        output.accept(ModBlocks.DEEPSLATE_SAPPHIRE_ORE.get());
+                        output.accept(ModBlocks.NETHER_SAPPHIRE_ORE.get());
+                        output.accept(ModBlocks.END_STONE_SAPPHIRE_ORE.get());
+
 
                     })
                     .build());
