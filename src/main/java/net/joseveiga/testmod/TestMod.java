@@ -26,7 +26,6 @@ public class TestMod
     public static final String MOD_ID = "testmod";
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
-    private int testVariable = 0;
 
     public TestMod()
     {
