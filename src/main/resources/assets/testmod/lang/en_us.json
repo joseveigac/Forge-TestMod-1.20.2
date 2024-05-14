@@ -2,6 +2,9 @@
   "item.testmod.sapphire": "Sapphire",
   "item.testmod.raw_sapphire": "Raw Sapphire",
 
+  "item.testmod.metal_detector": "Metal Detector",
+  "block.testmod.sound_block": "Sound Block",
+
   "block.testmod.sapphire_block": "Block of Sapphire",
   "block.testmod.raw_sapphire_block": "Block of Raw Sapphire",
 

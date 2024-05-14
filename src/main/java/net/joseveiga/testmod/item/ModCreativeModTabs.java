@@ -22,9 +22,13 @@ public class ModCreativeModTabs {
                         // Items
                         output.accept(ModItems.SAPPHIRE.get()); // Only use .get() for custom items not vanilla
                         output.accept(ModItems.RAW_SAPPHIRE.get());
+                        output.accept(ModItems.METAL_DETECTOR.get());
+
                         // Blocks
                         output.accept(ModBlocks.SAPPHIRE_BLOCK.get());
                         output.accept(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
+                        output.accept(ModBlocks.SOUND_BLOCK.get());
+
                         // Ores
                         output.accept(ModBlocks.SAPPHIRE_ORE.get());
                         output.accept(ModBlocks.DEEPSLATE_SAPPHIRE_ORE.get());
