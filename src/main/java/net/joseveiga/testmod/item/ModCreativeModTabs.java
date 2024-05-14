@@ -39,6 +39,9 @@ public class ModCreativeModTabs {
                         // Foods
                         output.accept(ModItems.STRAWBERRY.get());
 
+                        // Fuels
+                        output.accept(ModItems.PINE_CONE.get());
+
                     })
                     .build());
 
