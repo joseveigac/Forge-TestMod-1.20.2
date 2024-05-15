@@ -5,6 +5,7 @@ import net.joseveiga.testmod.block.custom.CornCropBlock;
 import net.joseveiga.testmod.block.custom.SoundBlock;
 import net.joseveiga.testmod.block.custom.StrawberryCropBlock;
 import net.joseveiga.testmod.item.ModItems;
+import net.joseveiga.testmod.sound.ModSounds;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.util.valueproviders.UniformInt;
@@ -98,7 +99,7 @@ public class ModBlocks {
                     BlockSetType.STONE));
 
     public static final RegistryObject<Block> SOUND_BLOCK = registerBlock("sound_block",
-            () -> new SoundBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+            () -> new SoundBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(ModSounds.SOUND_BLOCK_SOUNDS)));
 
     public static final RegistryObject<Block> STRAWBERRY_CROP = BLOCKS.register("strawberry_crop",
             () -> new StrawberryCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion().noCollission()));

@@ -1,0 +1,50 @@
+{
+  "metal_detector_found_ore": {
+    "subtitles": "sounds.testmod.metal_detector_found_ore",
+    "sounds": [
+      "testmod:metal_detector_found_ore"
+    ]
+  },
+  "sound_block_break": {
+    "subtitle": "sounds.testmod.sound_block_break",
+    "sounds": [
+      "testmod:sound_block_break"
+    ]
+  },
+  "sound_block_step": {
+    "subtitle": "sounds.testmod.sound_block_step",
+    "sounds": [
+      "testmod:sound_block_step"
+    ]
+  },
+  "sound_block_place": {
+    "subtitle": "sounds.testmod.sound_block_place",
+    "sounds": [
+      "testmod:sound_block_place"
+    ]
+  },
+  "sound_block_hit": {
+    "subtitle": "sounds.testmod.sound_block_hit",
+    "sounds": [
+      "testmod:sound_block_hit"
+    ]
+  },
+  "sound_block_fall": {
+    "subtitle": "sounds.testmod.sound_block_fall",
+    "sounds": [
+      "testmod:sound_block_fall"
+    ]
+  },
+  "ismael_grito": {
+    "subtitle": "sounds.testmod.ismael_grito",
+    "sounds": [
+      "testmod:ismael_grito"
+    ]
+  },
+  "ismael_come": {
+    "subtitles": "sounds.testmod.ismael_come",
+    "sounds": [
+      "testmod:ismael_come"
+    ]
+  }
+}
