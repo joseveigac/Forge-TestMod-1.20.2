@@ -5,6 +5,7 @@ import net.joseveiga.testmod.block.ModBlocks;
 import net.joseveiga.testmod.item.ModCreativeModTabs;
 import net.joseveiga.testmod.item.ModItems;
 import net.joseveiga.testmod.loot.ModLootModifiers;
+import net.joseveiga.testmod.villager.ModVillagers;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.level.block.Blocks;
@@ -42,6 +43,7 @@ public class TestMod
         ModCreativeModTabs.register(modEventBus);
 
         ModLootModifiers.register(modEventBus);
+        ModVillagers.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);

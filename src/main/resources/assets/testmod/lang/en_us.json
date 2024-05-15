@@ -43,7 +43,7 @@
   "block.testmod.sapphire_door": "Sapphire Door",
   "block.testmod.sapphire_trapdoor": "Sapphire Trapdoor",
 
-
+  "entity.minecraft.villager.testmod.soundmaster": "Sound Master",
 
   "tooltip.testmod.metal_detector.tooltip": "Finds valuables underground! (60 blocks down)",
   "tooltip.testmod.sound_block.tooltip": "\nMakes sweet sounds when right-clicked!",

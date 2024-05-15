@@ -2,7 +2,9 @@ package net.joseveiga.testmod.event;
 
 import it.unimi.dsi.fastutil.ints.Int2ObjectMap;
 import net.joseveiga.testmod.TestMod;
+import net.joseveiga.testmod.block.ModBlocks;
 import net.joseveiga.testmod.item.ModItems;
+import net.joseveiga.testmod.villager.ModVillagers;
 import net.minecraft.world.entity.npc.VillagerProfession;
 import net.minecraft.world.entity.npc.VillagerTrades;
 import net.minecraft.world.item.EnchantedBookItem;
@@ -39,6 +41,7 @@ public class ModEvents {
                     6,9,0.035f));
 
         }
+
         if(event.getType() == VillagerProfession.LIBRARIAN){
             Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
             ItemStack enchantedBook = EnchantedBookItem.createForEnchantment(new EnchantmentInstance(Enchantments.THORNS, 2));
@@ -48,6 +51,39 @@ public class ModEvents {
                     new ItemStack(Items.EMERALD,32),
                     enchantedBook,
                     2,8,0.02f));
+        }
+
+        if(event.getType() == ModVillagers.SOUND_MASTER.get()){
+            Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
+
+            // Level 1
+            trades.get(1).add((entity, randomSource) -> new MerchantOffer(
+                    new ItemStack(Items.EMERALD,8),
+                    new ItemStack(ModBlocks.SOUND_BLOCK.get(),1),
+                    10,10,0.02f));
+
+            // Level 2
+            trades.get(2).add((entity, randomSource) -> new MerchantOffer(
+                    new ItemStack(Items.EMERALD,1),
+                    new ItemStack(ModItems.SAPPHIRE.get(),1),
+                    64,5,0.02f));
+
+            trades.get(2).add((entity, randomSource) -> new MerchantOffer(
+                    new ItemStack(Items.EMERALD, 10),
+                    new ItemStack(ModItems.SAPPHIRE_HELMET.get(),1),
+                    4,6,0.2f));
+            trades.get(2).add((entity, randomSource) -> new MerchantOffer(
+                    new ItemStack(Items.EMERALD, 14),
+                    new ItemStack(ModItems.SAPPHIRE_CHESTPLATE.get(),1),
+                    4,12,0.2f));
+            trades.get(2).add((entity, randomSource) -> new MerchantOffer(
+                    new ItemStack(Items.EMERALD, 12),
+                    new ItemStack(ModItems.SAPPHIRE_LEGGINGS.get(),1),
+                    4,9,0.2f));
+            trades.get(2).add((entity, randomSource) -> new MerchantOffer(
+                    new ItemStack(Items.EMERALD, 8),
+                    new ItemStack(ModItems.SAPPHIRE_BOOTS.get(),1),
+                    4,4,0.2f));
         }
     }
     @SubscribeEvent
