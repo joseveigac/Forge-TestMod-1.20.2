@@ -31,6 +31,12 @@ public class ModCreativeModTabs {
                         output.accept(ModItems.SAPPHIRE_SHOVEL.get());
                         output.accept(ModItems.SAPPHIRE_HOE.get());
 
+                        // Armors
+                        output.accept(ModItems.SAPPHIRE_HELMET.get());
+                        output.accept(ModItems.SAPPHIRE_CHESTPLATE.get());
+                        output.accept(ModItems.SAPPHIRE_LEGGINGS.get());
+                        output.accept(ModItems.SAPPHIRE_BOOTS.get());
+
                         // Blocks
                         output.accept(ModBlocks.SOUND_BLOCK.get());
 
@@ -59,7 +65,6 @@ public class ModCreativeModTabs {
                         output.accept(ModBlocks.SAPPHIRE_WALL.get());
                         output.accept(ModBlocks.SAPPHIRE_DOOR.get());
                         output.accept(ModBlocks.SAPPHIRE_TRAPDOOR.get());
-
 
                     })
                     .build());

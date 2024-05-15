@@ -13,6 +13,12 @@
   "item.testmod.sapphire_shovel": "Sapphire Shovel",
   "item.testmod.sapphire_hoe": "Sapphire Hoe",
 
+  "item.testmod.sapphire_helmet": "Sapphire Helmet",
+  "item.testmod.sapphire_chestplate": "Sapphire Chestplate",
+  "item.testmod.sapphire_leggings": "Sapphire Leggings",
+  "item.testmod.sapphire_boots": "Sapphire Boots",
+
+
   "block.testmod.sound_block": "Sound Block",
 
   "block.testmod.sapphire_block": "Block of Sapphire",
