@@ -10,4 +10,9 @@ public class ModFoods {
             .fast()
             .saturationMod(0.2f)
             .effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 200), 0.1f).build();
+
+    public static final FoodProperties CORN = new FoodProperties.Builder()
+            .nutrition(4)
+            .saturationMod(0.3f)
+            .build();
 }

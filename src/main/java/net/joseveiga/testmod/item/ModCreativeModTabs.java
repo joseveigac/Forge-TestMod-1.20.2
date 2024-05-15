@@ -39,6 +39,7 @@ public class ModCreativeModTabs {
 
                         // Blocks
                         output.accept(ModBlocks.SOUND_BLOCK.get());
+                        output.accept(ModBlocks.CATMINT.get());
 
                         // Ores
                         output.accept(ModBlocks.SAPPHIRE_ORE.get());
@@ -49,6 +50,8 @@ public class ModCreativeModTabs {
                         // Foods
                         output.accept(ModItems.STRAWBERRY.get());
                         output.accept(ModItems.STRAWBERRY_SEEDS.get());
+                        output.accept(ModItems.CORN.get());
+                        output.accept(ModItems.CORN_SEEDS.get());
 
                         // Fuels
                         output.accept(ModItems.PINE_CONE.get());

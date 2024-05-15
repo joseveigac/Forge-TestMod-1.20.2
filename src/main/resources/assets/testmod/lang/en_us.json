@@ -3,7 +3,6 @@
   "item.testmod.raw_sapphire": "Raw Sapphire",
 
   "item.testmod.metal_detector": "Metal Detector",
-  "item.testmod.strawberry": "Strawberry",
   "item.testmod.pine_cone": "Pine Cone",
   "item.testmod.sapphire_staff": "Sapphire Staff",
 
@@ -18,9 +17,13 @@
   "item.testmod.sapphire_leggings": "Sapphire Leggings",
   "item.testmod.sapphire_boots": "Sapphire Boots",
 
+  "item.testmod.strawberry": "Strawberry",
   "item.testmod.strawberry_seeds": "Strawberry Seeds",
+  "item.testmod.corn": "Corn",
+  "item.testmod.corn_seeds": "Corn Seeds",
 
   "block.testmod.sound_block": "Sound Block",
+  "block.testmod.catmint": "Catmint",
 
   "block.testmod.sapphire_block": "Block of Sapphire",
   "block.testmod.raw_sapphire_block": "Block of Raw Sapphire",
